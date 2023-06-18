@@ -52,17 +52,5 @@ namespace BelfastWeatherApi.Controllers
         {
             return Ok("GlobalFeatureUpdate");
         }
-
-        [HttpGet("SummerFeature_All_UsersKevin")]
-        public IActionResult GetAllKevin()
-        {
-            return Ok("GlobalFeatureUpdate");
-        }
-
-        [HttpGet("SummerFeature_All_UsersKevin2")]
-        public IActionResult GetAllKevin2()
-        {
-            return Ok("GlobalFeatureUpdate");
-        }
     }
 }
